@@ -163,4 +163,6 @@ cython_debug/
 
 # Ignore credentials.json
 credentials.json
-
+git rm --cached credentials.json
+git commit -m "Remove credentials.json from repository"
+git push
